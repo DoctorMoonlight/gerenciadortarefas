@@ -27,7 +27,7 @@ O Gerenciador de Tarefas é uma aplicação que permite aos usuários organizar 
 ### 2.3 Estrutura do Projeto
 A estrutura do projeto do gerenciador de tarefas é construída em C++ e deve ser organizada de forma clara e intuitiva, permitindo a facilidade na compreensão e manutenção do código.
 
-gerenciador-de-tarefas/
+[estrtutura.txt](https://github.com/user-attachments/files/16151001/estrtutura.txt)gerenciador-de-tarefas/
 │
 ├── bin/                 # Diretório para o executável
 │   └── gerenciador-de-tarefas
@@ -66,7 +66,6 @@ gerenciador-de-tarefas/
 │
 ├── CMakeLists.txt       # Arquivo de configuração do CMake
 └── README.md            # Documentação principal do projeto
-
 
 ### 2.4 Instruções de Instalação
 Fornece instruções detalhadas sobre como instalar e configurar o sistema em um ambiente de desenvolvimento. Inclua dependências e requisitos de sistema, se aplicável.
