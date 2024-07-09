@@ -92,7 +92,7 @@ O utilizador tem um evento X e deseja ser notificado desse evento com antecedên
 
 ![5](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/dd28bec6-75fc-41c8-ac7e-4fe84c2afce9)
 
-#Autoras
+## Autoras
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/174665776?v=4" width=115><br><sub>Ana Luiza Silva e Mendes</sub>](https://github.com/analuizasmendes) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/91071877?v=4" width=115><br><sub>Maria Clara Moreira Alves de Araújo</sub>](https://github.com/DoctorMoonlight) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/174662300?v=4" width=115><br><sub>Elen Caroline Izidoro de Aguiar</sub>](https://github.com/ellenuf) |[<img loading="lazy" src="https://avatars.githubusercontent.com/u/165835956?v=4" width=115><br><sub>Ana Sarah da Silva Gomes</sub>](https://github.com/anasarahsg) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/174651649?v=4" width=115><br><sub>Bruna Kamily dos Santos</sub>](https://github.com/BrunaKamilySantos)
 | :---: | :---: | :---: |:---: |:---: |
