@@ -8,30 +8,30 @@
 ### Descrição: 
 Como usuário, desejo poder gerenciar meus afazeres com informações detalhadas.
 ### Critérios de Aceitação:
-● Posso adicionar uma nova tarefa com descrição, data, hora, etiqueta e status de conclusão;
-● Posso editar os detalhes de uma tarefa existente;
-● Posso visualizar todas as informações de uma tarefa;
-● Posso marcar uma tarefa como concluída;
-● Recebo notificações quando uma tarefa está próxima de ocorrer.
+- Posso adicionar uma nova tarefa com descrição, data, hora, etiqueta e status de conclusão;
+- Posso editar os detalhes de uma tarefa existente;
+- Posso visualizar todas as informações de uma tarefa;
+- Posso marcar uma tarefa como concluída;
+- Recebo notificações quando uma tarefa está próxima de ocorrer.
 
 ### 1.2 Coordenador de Tarefas
 ### Descrição: 
 Como usuário, desejo um gerenciador de tarefas que me permita organizar e controlar minhas tarefas de forma eficiente.
 ### Critérios de Aceitação:
-● Posso adicionar uma nova tarefa ao gerenciador;
-● Posso eliminar uma tarefa do gerenciador;
-● Posso editar os detalhes de uma tarefa no gerenciador;
-● Posso visualizar todas as tarefas criadas;
-● Posso marcar tarefas como concluídas;
-● Posso utilizar etiquetas para categorizar tarefas com base em prioridade;
-● Posso visualizar o histórico de tarefas concluídas.
+- Posso adicionar uma nova tarefa ao gerenciador;
+- Posso eliminar uma tarefa do gerenciador;
+- Posso editar os detalhes de uma tarefa no gerenciador;
+- Posso visualizar todas as tarefas criadas;
+- Posso marcar tarefas como concluídas;
+- Posso utilizar etiquetas para categorizar tarefas com base em prioridade;
+- Posso visualizar o histórico de tarefas concluídas.
 
 ### 1.3 Notificações
 ### Descrição: 
 Como usuário, desejo receber notificações sobre minhas tarefas para não perder prazos e eventos importantes.
 ### Critérios de Aceitação:
-● Recebo uma notificação quando uma tarefa está próxima de ocorrer;
-● Posso configurar a preferência de horário do alarme (duas horas antes do evento, uma hora antes, etc.).
+- Recebo uma notificação quando uma tarefa está próxima de ocorrer;
+- Posso configurar a preferência de horário do alarme (duas horas antes do evento, uma hora antes, etc.).
 
 ### 1.4 Etiquetas
 ### Descrição: 
