@@ -1,4 +1,6 @@
 # Gerenciador de Tarefas
+![image](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/9b061b5f-8246-4337-9397-0f11d1a75f1e)
+
 
 ## USER STORY
 
