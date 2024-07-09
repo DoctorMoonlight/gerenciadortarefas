@@ -58,7 +58,7 @@ Gerenciar uma tarefa traz benefícios como evitar sobrecarga de trabalho e dimin
 A estrutura do projeto do gerenciador de tarefas é construída em C++ de maneira intuitiva, permitindo a facilidade na compreensão e manutenção do código.
 
 ![Estrutura do projeto](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/65a8a65c-f524-47e5-9010-31fd7be6e72f)
-
+Fonte: Visual Studio Code
 ### 2.4 Instruções de Instalação
 O usuário deve seguir as instruções de instalação a depender do seu sistema operacional.
 
