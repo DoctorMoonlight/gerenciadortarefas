@@ -1,5 +1,5 @@
 # Gerenciador de Tarefas
-![image](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/6c215f10-6ae0-4bc1-b6aa-d6eac90fadcf)
+![image](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/408af570-e754-4d26-8596-72ca5af8927d)
 
 
 
