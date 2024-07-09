@@ -1,1 +1,1 @@
-# gerenciadortarefas
+# gerenciador-de-tarefas
