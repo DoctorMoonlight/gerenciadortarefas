@@ -21,7 +21,7 @@ Fonte: Visual Studio Code
 O usuário deve seguir as instruções de instalação a depender do seu sistema operacional.
 
 
-#### 1.5 Passos para Instalação
+#### Passos para Instalação
 1. Clone o repositório: [https://github.com/DoctorMoonlight/gerenciadortarefas.git](https://github.com/DoctorMoonlight/gerenciadortarefas.git)
 2. Compile e execute o programa no ambiente de desenvolvimento da sua preferência.
 
