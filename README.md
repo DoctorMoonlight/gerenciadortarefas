@@ -60,7 +60,7 @@ A estrutura do projeto do gerenciador de tarefas é construída em C++ de maneir
 ![Estrutura do projeto](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/65a8a65c-f524-47e5-9010-31fd7be6e72f)
 
 ### 2.4 Instruções de Instalação
-O usuário deve seguir as intruções de instalação a depender do seu sistema operacional.
+O usuário deve seguir as instruções de instalação a depender do seu sistema operacional.
 
 
 #### Passos para Instalação
