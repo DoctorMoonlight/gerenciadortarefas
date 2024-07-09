@@ -91,4 +91,3 @@ O utilizador tem um evento X e deseja ser notificado desse evento com antecedên
 ![4](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/8a4db2fc-8752-4745-a0ab-75a4db7e7647)
 
 ![5](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/dd28bec6-75fc-41c8-ac7e-4fe84c2afce9)
-
