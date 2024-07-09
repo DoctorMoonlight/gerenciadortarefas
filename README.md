@@ -44,10 +44,10 @@ Elaborem um arquivo README detalhado que inclua uma visão geral do projeto, os 
 
 | Responsabilidade                         | Colaborações              |
 |------------------------------------------|---------------------------|
-| Adicionar tarefas                        |                           |
-| Eliminar tarefas                         |                           |
+| Adicionar tarefas                        | Notificações              |
+| Eliminar tarefas                         | Histórico de tarefas      |
 | Editar tarefas                           |                           |
 | Visualizar tarefas                       |                           |
 | Marcar como concluída                    |                           |
-| Adicionar notificação                    | Notificações              |
-| Ver histórico de tarefas concluídas      | Histórico de tarefas      |
+| Adicionar notificação                    |                           |
+| Ver histórico de tarefas concluídas      |                           |
