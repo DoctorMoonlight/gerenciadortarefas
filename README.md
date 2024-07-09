@@ -27,45 +27,7 @@ O Gerenciador de Tarefas é uma aplicação que permite aos usuários organizar 
 ### 2.3 Estrutura do Projeto
 A estrutura do projeto do gerenciador de tarefas é construída em C++ e deve ser organizada de forma clara e intuitiva, permitindo a facilidade na compreensão e manutenção do código.
 
-[estrtutura.txt](https://github.com/user-attachments/files/16151001/estrtutura.txt)gerenciador-de-tarefas/
-│
-├── bin/                 # Diretório para o executável
-│   └── gerenciador-de-tarefas
-│
-├── build/               # Diretório para arquivos de compilação
-│
-├── src/                 # Código-fonte do projeto
-│   ├── main.cpp         # Arquivo principal
-│   ├── tarefa.cpp       # Implementação da classe Tarefa
-│   ├── gerenciador.cpp  # Implementação da classe GerenciadorDeTarefas
-│   ├── notificacao.cpp  # Implementação da classe Notificacao
-│   ├── etiqueta.cpp     # Implementação da classe Etiqueta
-│   └── historico.cpp    # Implementação da classe Historico
-│
-├── include/             # Cabeçalhos do projeto
-│   ├── tarefa.h         # Declaração da classe Tarefa
-│   ├── gerenciador.h    # Declaração da classe GerenciadorDeTarefas
-│   ├── notificacao.h    # Declaração da classe Notificacao
-│   ├── etiqueta.h       # Declaração da classe Etiqueta
-│   └── historico.h      # Declaração da classe Historico
-│
-├── obj/                 # Diretório para arquivos objeto (.o)
-│   ├── main.o
-│   ├── tarefa.o
-│   ├── gerenciador.o
-│   ├── notificacao.o
-│   ├── etiqueta.o
-│   └── historico.o
-│
-├── tests/               # Testes 
-│   ├── test_tarefa.cpp
-│   ├── test_gerenciador.cpp
-│   ├── test_notificacao.cpp
-│   ├── test_etiqueta.cpp
-│   └── test_historico.cpp
-│
-├── CMakeLists.txt       # Arquivo de configuração do CMake
-└── README.md            # Documentação principal do projeto
+![estrutura do projeto](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/65a8a65c-f524-47e5-9010-31fd7be6e72f)
 
 ### 2.4 Instruções de Instalação
 Fornece instruções detalhadas sobre como instalar e configurar o sistema em um ambiente de desenvolvimento. Inclua dependências e requisitos de sistema, se aplicável.
@@ -82,7 +44,6 @@ Para utilizar corretamente o sistema, o usuário deve:
 - Selecionar a tarefa como concluída;
 - Visualizar o histórico de afazeres realizados e pendentes;
 - Excluir ou editar a tarefa.
-
 
 #### Exemplo de Uso
 O usuário tem um evento X e deseja ser notificado desse evento com antecedência. Ele registra o nome, o dia, a hora e outros detalhes do evento e recebe uma notificação do evento naquele certo dia e, assim que concluído, pode determinar como “resolvido”.
