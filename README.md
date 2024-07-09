@@ -40,7 +40,8 @@ O usuário tem um evento X e deseja ser notificado desse evento com antecedênci
 ### Documentação (README)
 Elaborem um arquivo README detalhado que inclua uma visão geral do projeto, os requisitos do sistema, instruções de configuração do ambiente de desenvolvimento e guias de contribuição. A documentação deve facilitar a compreensão do projeto para novos colaboradores, incluindo uma descrição clara das funcionalidades implementadas, exemplos de uso e instruções para a execução de testes.
 
-## Cartão CRC Classe Usuário
+## Cartão CRC 
+## Classe: Usuário
 
 | Responsabilidade                         | Colaborações              |
 |------------------------------------------|---------------------------|
