@@ -50,15 +50,14 @@ O usuário tem um evento X e deseja ser notificado desse evento com antecedênci
 ### Documentação (README)
 Elaborem um arquivo README detalhado que inclua uma visão geral do projeto, os requisitos do sistema, instruções de configuração do ambiente de desenvolvimento e guias de contribuição. A documentação deve facilitar a compreensão do projeto para novos colaboradores, incluindo uma descrição clara das funcionalidades implementadas, exemplos de uso e instruções para a execução de testes.
 
-## Cartão CRC 
-## Classe: Usuário
+## Cartões CRC 
 
-| Responsabilidade                         | Colaborações              |
-|------------------------------------------|---------------------------|
-| Adicionar tarefas                        | Notificações              |
-| Eliminar tarefas                         | Histórico de tarefas      |
-| Editar tarefas                           |                           |
-| Visualizar tarefas                       |                           |
-| Marcar como concluída                    |                           |
-| Adicionar notificação                    |                           |
-| Ver histórico de tarefas concluídas      |                           |
+![1](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/4c6ee445-cc59-4c9e-8fad-cedfcca23a89)
+
+![2](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/c6e3663a-50ab-4186-8eb7-600c920e307e)
+
+![3](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/c1fb98bb-9017-49ba-a1fb-190a148bb27b)
+
+![4](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/8a4db2fc-8752-4745-a0ab-75a4db7e7647)
+
+![5](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/dd28bec6-75fc-41c8-ac7e-4fe84c2afce9)
