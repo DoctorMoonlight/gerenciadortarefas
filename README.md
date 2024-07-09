@@ -1,5 +1,5 @@
 # Gerenciador de Tarefas
-![image](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/408af570-e754-4d26-8596-72ca5af8927d)
+![Capa do trabalho](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/408af570-e754-4d26-8596-72ca5af8927d)
 
 
 
@@ -58,10 +58,7 @@ O Gerenciador de Tarefas é uma aplicação que permite aos usuários organizar 
 ### 2.3 Estrutura do Projeto
 A estrutura do projeto do gerenciador de tarefas é construída em C++ e deve ser organizada de forma clara e intuitiva, permitindo a facilidade na compreensão e manutenção do código.
 
-<div align="center">
-  ![ESTRUTURA DO PROJETO](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/65a8a65c-f524-47e5-9010-31fd7be6e72f)
-
-</div>
+![Estrutura do projeto](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/65a8a65c-f524-47e5-9010-31fd7be6e72f)
 
 ### 2.4 Instruções de Instalação
 Fornece instruções detalhadas sobre como instalar e configurar o sistema em um ambiente de desenvolvimento. Inclua dependências e requisitos de sistema, se aplicável.
