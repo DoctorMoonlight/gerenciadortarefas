@@ -32,7 +32,14 @@ Fornece instruções detalhadas sobre como instalar e configurar o sistema em um
 2. Compile e execute o programa no ambiente de desenvolvimento da sua preferência.
 
 ### 2.5 Instruções de Uso
-O gerenciador de tarefas deve ser utilizado cotidianamente para auxiliar na realização de tarefas. O usuário adiciona a tarefa a ser realizada e sua data de entrega, e deve marcar a tarefa como concluída quando assim for, e excluir as tarefas que não deseja mais realizar. O usuário pode acessar o histórico de todas as suas tarefas cumpridas em sua determinada data e editar as tarefas que ainda estão para ser realizadas.
+- Para utilizar corretamente o sistema, o usuário deve:
+- Iniciar uma nova tarefa;
+- Adicionar as especificações da tarefa: data, descrição, horário e prioridade;
+- Personalizar as notificações: defina o horário do alarme;
+- Selecionar a tarefa como concluída;
+- Visualizar o histórico de afazeres realizados e pendentes;
+- Excluir ou editar a tarefa.
+
 
 #### Exemplo de Uso
 O usuário tem um evento X e deseja ser notificado desse evento com antecedência. Ele registra o nome, o dia, a hora e outros detalhes do evento e recebe uma notificação do evento naquele certo dia e, assim que concluído, pode determinar como “resolvido”.
