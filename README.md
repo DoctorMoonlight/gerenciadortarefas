@@ -37,14 +37,14 @@ Como usuário, desejo receber notificações sobre minhas tarefas para não perd
 ### Descrição: 
 Como usuário, desejo categorizar minhas tarefas usando etiquetas para melhor organização.
 ### Critérios de Aceitação:
-● Posso criar e editar etiquetas para minhas tarefas;
-● Posso definir prioridades para as tarefas usando etiquetas.
+- Posso criar e editar etiquetas para minhas tarefas;
+- Posso definir prioridades para as tarefas usando etiquetas.
 
 ### 1.5 Histórico
 Descrição: Como usuário, desejo poder acessar o histórico de minhas tarefas concluídas para acompanhar meu progresso.
 ### Critérios de Aceitação:
-● Posso visualizar um histórico das tarefas que ficaram pendentes e das que eu concluí;
-● As informações do histórico possuem a descrição, data, hora e etiqueta da tarefa criada.
+- Posso visualizar um histórico das tarefas que ficaram pendentes e das que eu concluí;
+- As informações do histórico possuem a descrição, data, hora e etiqueta da tarefa criada.
 
 
 ## 2.0 README
@@ -69,12 +69,12 @@ Fornece instruções detalhadas sobre como instalar e configurar o sistema em um
 
 ### 2.5 Instruções de Uso
 Para utilizar corretamente o sistema, o usuário deve:
-● Iniciar uma nova tarefa;
-● Adicionar as especificações da tarefa: data, descrição, horário e prioridade;
-● Personalizar as notificações: defina o horário do alarme;
-● Selecionar a tarefa como concluída;
-● Visualizar o histórico de afazeres realizados e pendentes;
-● Excluir ou editar a tarefa.
+- Iniciar uma nova tarefa;
+- Adicionar as especificações da tarefa: data, descrição, horário e prioridade;
+- Personalizar as notificações: defina o horário do alarme;
+- Selecionar a tarefa como concluída;
+- Visualizar o histórico de afazeres realizados e pendentes;
+- Excluir ou editar a tarefa.
 
 #### Exemplo de Uso:
 O usuário tem um evento X e deseja ser notificado desse evento com antecedência. Ele registra o nome, o dia, a hora e outros detalhes do evento e recebe uma notificação do evento naquele certo dia e, assim que concluído, pode determinar como “resolvido”.
