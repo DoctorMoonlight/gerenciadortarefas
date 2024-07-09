@@ -3,20 +3,51 @@
 
 
 
-## USER STORY
+## 1.0 User Stories
+### 1.1 Tarefa
+### Descrição: 
+Como usuário, desejo poder gerenciar meus afazeres com informações detalhadas.
+### Critérios de Aceitação:
+● Posso adicionar uma nova tarefa com descrição, data, hora, etiqueta e status de conclusão;
+● Posso editar os detalhes de uma tarefa existente;
+● Posso visualizar todas as informações de uma tarefa;
+● Posso marcar uma tarefa como concluída;
+● Recebo notificações quando uma tarefa está próxima de ocorrer.
 
-### Descrição
-Como usuário, desejo gerenciar minhas tarefas diárias.
+### 1.2 Coordenador de Tarefas
+### Descrição: 
+Como usuário, desejo um gerenciador de tarefas que me permita organizar e controlar minhas tarefas de forma eficiente.
+### Critérios de Aceitação:
+● Posso adicionar uma nova tarefa ao gerenciador;
+● Posso eliminar uma tarefa do gerenciador;
+● Posso editar os detalhes de uma tarefa no gerenciador;
+● Posso visualizar todas as tarefas criadas;
+● Posso marcar tarefas como concluídas;
+● Posso utilizar etiquetas para categorizar tarefas com base em prioridade;
+● Posso visualizar o histórico de tarefas concluídas.
 
-### Critérios de Aceitação
-- Posso registrar minhas tarefas diárias, editá-las e visualizá-las;
-- Posso adicionar notificações, para que eu seja notificado sempre que alguma tarefa/evento estiver pendente;
-- Posso marcar tarefas como concluídas;
-- Posso apagar as tarefas quando for necessário;
-- Posso ordenar as tarefas de acordo com sua ordem de urgência;
-- Posso visualizar o histórico das tarefas concluídas.
+### 1.3 Notificações
+### Descrição: 
+Como usuário, desejo receber notificações sobre minhas tarefas para não perder prazos e eventos importantes.
+### Critérios de Aceitação:
+● Recebo uma notificação quando uma tarefa está próxima de ocorrer;
+● Posso configurar a preferência de horário do alarme (duas horas antes do evento, uma hora antes, etc.).
 
-## README
+### 1.4 Etiquetas
+### Descrição: 
+Como usuário, desejo categorizar minhas tarefas usando etiquetas para melhor organização.
+### Critérios de Aceitação:
+● Posso criar e editar etiquetas para minhas tarefas;
+● Posso definir prioridades para as tarefas usando etiquetas.
+
+### 1.5 Histórico
+Descrição: Como usuário, desejo poder acessar o histórico de minhas tarefas concluídas para acompanhar meu progresso.
+### Critérios de Aceitação:
+● Posso visualizar um histórico das tarefas que ficaram pendentes e das que eu concluí;
+● As informações do histórico possuem a descrição, data, hora e etiqueta da tarefa criada.
+
+
+## 2.0 README
 
 ### 2.1 Apresentação do Problema
 No mundo atual, a quantidade de tarefas e compromissos diários aumenta constantemente. Gerenciar tarefas diárias pode ser um desafio, especialmente quando se lida com múltiplas atividades e prazos. A falta de um sistema eficiente para organizar essas tarefas pode causar atrasos, esquecimentos e, consequentemente, a perda de produtividade. Este projeto se propõe a resolver esses problemas com o auxílio de um gerenciador de tarefas que ajuda os usuários a registrar, organizar e acompanhar suas atividades diárias.
@@ -38,18 +69,18 @@ Fornece instruções detalhadas sobre como instalar e configurar o sistema em um
 
 ### 2.5 Instruções de Uso
 Para utilizar corretamente o sistema, o usuário deve:
-- Iniciar uma nova tarefa;
-- Adicionar as especificações da tarefa: data, descrição, horário e prioridade;
-- Personalizar as notificações: defina o horário do alarme;
-- Selecionar a tarefa como concluída;
-- Visualizar o histórico de afazeres realizados e pendentes;
-- Excluir ou editar a tarefa.
+● Iniciar uma nova tarefa;
+● Adicionar as especificações da tarefa: data, descrição, horário e prioridade;
+● Personalizar as notificações: defina o horário do alarme;
+● Selecionar a tarefa como concluída;
+● Visualizar o histórico de afazeres realizados e pendentes;
+● Excluir ou editar a tarefa.
 
-#### Exemplo de Uso
+#### Exemplo de Uso:
 O usuário tem um evento X e deseja ser notificado desse evento com antecedência. Ele registra o nome, o dia, a hora e outros detalhes do evento e recebe uma notificação do evento naquele certo dia e, assim que concluído, pode determinar como “resolvido”.
 
 
-## Cartões CRC 
+## Cartões Class-Responsibility-Collaborator (CRC)
 
 ![1](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/4c6ee445-cc59-4c9e-8fad-cedfcca23a89)
 
