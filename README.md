@@ -32,7 +32,7 @@ Fornece instruções detalhadas sobre como instalar e configurar o sistema em um
 2. Compile e execute o programa no ambiente de desenvolvimento da sua preferência.
 
 ### 2.5 Instruções de Uso
-- Para utilizar corretamente o sistema, o usuário deve:
+Para utilizar corretamente o sistema, o usuário deve:
 - Iniciar uma nova tarefa;
 - Adicionar as especificações da tarefa: data, descrição, horário e prioridade;
 - Personalizar as notificações: defina o horário do alarme;
