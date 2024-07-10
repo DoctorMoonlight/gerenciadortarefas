@@ -57,8 +57,6 @@ Fonte: Visual Studio Code
    - Excluir tarefas.
    - Visualizar o histórico de tarefas concluídas.
 
-### Observações
-Certifique-se de ter as permissões adequadas para compilar e executar o programa no Windows. Caso encontre algum problema durante a compilação ou execução, verifique as dependências e assegure-se de que todas as etapas foram seguidas corretamente.
 
 ---
 
@@ -104,12 +102,10 @@ Certifique-se de ter as permissões adequadas para compilar e executar o program
    - Excluir tarefas.
    - Visualizar o histórico de tarefas concluídas.
 
-### Observações
-Certifique-se de ter as permissões adequadas para compilar e executar o programa no Linux. Caso encontre algum problema durante a compilação ou execução, verifique as dependências e assegure-se de que todas as etapas foram seguidas corretamente.
+### Observações sobre a instalação 
+O utilizador deve se certificar de ter as permissões adequadas para compilar e executar o programa no Linux ou no Windows. Caso aconteça algum problema durante a compilação ou execução, será necessário verificar as dependências e assegurar de que todas as etapas foram seguidas corretamente.
 
-#### Passos para Instalação
-1. Clone o repositório: [https://github.com/DoctorMoonlight/gerenciadortarefas.git](https://github.com/DoctorMoonlight/gerenciadortarefas.git)
-2. Compile e execute o programa no ambiente de desenvolvimento da sua preferência.
+
 
 ### 1.5 Instruções de Uso
 Para utilizar corretamente o sistema, o usuário deve:
