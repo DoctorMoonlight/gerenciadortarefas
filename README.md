@@ -16,19 +16,33 @@ A estrutura do projeto do gerenciador de tarefas é construída em C++ de maneir
 
 
 gerenciador-de-tarefas/
+
 │
+
 ├── bin/                 # Diretório para o executável
+
 │   └── gerenciador-de-tarefas
+
 │
+
 ├── build/               # Diretório para arquivos de compilação
+
 │
+
 ├── src/                 # Código-fonte do projeto
+
 │   ├── main.cpp         # Arquivo principal
+
 │   ├── tarefa.cpp       # Implementação da classe Tarefa
+
 │   ├── gerenciador.cpp  # Implementação da classe GerenciadorDeTarefas
+
 │   ├── notificacao.cpp  # Implementação da classe Notificacao
+
 │   ├── etiqueta.cpp     # Implementação da classe Etiqueta
+
 │   └── historico.cpp    # Implementação da classe Historico
+
 │
 ├── include/             # Cabeçalhos do projeto
 │   ├── tarefa.h         # Declaração da classe Tarefa
