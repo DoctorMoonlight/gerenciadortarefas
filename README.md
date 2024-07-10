@@ -111,7 +111,7 @@ Certifique-se de ter as permissões adequadas para compilar e executar o program
 1. Clone o repositório: [https://github.com/DoctorMoonlight/gerenciadortarefas.git](https://github.com/DoctorMoonlight/gerenciadortarefas.git)
 2. Compile e execute o programa no ambiente de desenvolvimento da sua preferência.
 
-### 1.6 Instruções de Uso
+### 1.5 Instruções de Uso
 Para utilizar corretamente o sistema, o usuário deve:
 - Iniciar uma nova tarefa;
 - Adicionar as especificações da tarefa: data, descrição, horário e prioridade;
