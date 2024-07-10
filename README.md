@@ -18,13 +18,13 @@ A estrutura do projeto do gerenciador de tarefas é construída em C++ de maneir
 Fonte: Visual Studio Code
 
 ### 1.4 Instruções de Instalação
-# 1.4.1 Instalação e Uso no Windows
+### 1.4.1 Instalação e Uso no Windows
 
-## Requisitos do Sistema
+### Requisitos do Sistema
 - MinGW ou outro ambiente de desenvolvimento C++ (como Visual Studio)
 - Git (para clonar o repositório)
 
-## Passos para Instalação
+### Passos para Instalação
 
 1. **Clone o repositório:**
    - Abra o terminal (Git Bash ou CMD) e execute o seguinte comando para clonar o repositório do Gerenciador de Tarefas:
@@ -45,7 +45,7 @@ Fonte: Visual Studio Code
      ```
      Isso compilará os arquivos principais (main.cpp, task.cpp e tasklist.cpp) e criará um executável chamado `gerenciador.exe`.
 
-## Instruções de Uso
+### Instruções de Uso
 
 1. **Executar o Gerenciador de Tarefas:**
    - Após compilar o programa, execute-o no terminal ou no explorador de arquivos clicando duas vezes no executável `gerenciador.exe`.
@@ -62,13 +62,13 @@ Certifique-se de ter as permissões adequadas para compilar e executar o program
 
 ---
 
-# 1.4.2 Instalação e Uso no Linux
+### 1.4.2 Instalação e Uso no Linux
 
-## Requisitos do Sistema
+### Requisitos do Sistema
 - Compilador C++ (por exemplo, g++)
 - Git (para clonar o repositório)
 
-## Passos para Instalação
+### Passos para Instalação
 
 1. **Clone o repositório:**
    - Abra o terminal e execute o seguinte comando para clonar o repositório do Gerenciador de Tarefas:
@@ -89,7 +89,7 @@ Certifique-se de ter as permissões adequadas para compilar e executar o program
      ```
      Isso compilará os arquivos principais (main.cpp, task.cpp e tasklist.cpp) e criará um executável chamado `gerenciador`.
 
-## Instruções de Uso
+### Instruções de Uso
 
 1. **Executar o Gerenciador de Tarefas:**
    - Após compilar o programa, execute-o digitando o seguinte comando no terminal:
