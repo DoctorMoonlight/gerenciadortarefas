@@ -13,6 +13,83 @@ Gerenciar uma tarefa traz benefícios como evitar sobrecarga de trabalho e dimin
 ### 1.3 Estrutura do Projeto
 A estrutura do projeto do gerenciador de tarefas é construída em C++ de maneira intuitiva, permitindo a facilidade na compreensão e manutenção do código.
 
+gerenciador-de-tarefas/
+
+│
+
+├── bin/                 # Diretório para o executável
+
+│   └── gerenciador-de-tarefas
+
+│
+
+├── build/               # Diretório para arquivos de compilação
+
+│
+
+├── src/                 # Código-fonte do projeto
+
+│   ├── main.cpp         # Arquivo principal
+
+│   ├── tarefa.cpp       # Implementação da classe Tarefa
+
+│   ├── gerenciador.cpp  # Implementação da classe GerenciadorDeTarefas
+
+│   ├── notificacao.cpp  # Implementação da classe Notificacao
+
+│   ├── etiqueta.cpp     # Implementação da classe Etiqueta
+
+│   └── historico.cpp    # Implementação da classe Historico
+
+│
+
+├── include/             # Cabeçalhos do projeto
+
+│   ├── tarefa.h         # Declaração da classe Tarefa
+
+│   ├── gerenciador.h    # Declaração da classe GerenciadorDeTarefas
+
+│   ├── notificacao.h    # Declaração da classe Notificacao
+
+│   ├── etiqueta.h       # Declaração da classe Etiqueta
+
+│   └── historico.h      # Declaração da classe Historico
+
+│
+
+├── obj/                 # Diretório para arquivos objeto (.o)
+
+│   ├── main.o
+
+│   ├── tarefa.o
+
+│   ├── gerenciador.o
+
+│   ├── notificacao.o
+
+│   ├── etiqueta.o
+
+│   └── historico.o
+
+│
+
+├── tests/               # Testes unitários
+
+│   ├── test_tarefa.cpp
+
+│   ├── test_gerenciador.cpp
+
+│   ├── test_notificacao.cpp
+
+│   ├── test_etiqueta.cpp
+
+│   └── test_historico.cpp
+
+│
+
+├── CMakeLists.txt       # Arquivo de configuração do CMake
+
+└── README.md            # Documentação principal do projeto
 
 ![Estrutura do projeto](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/65a8a65c-f524-47e5-9010-31fd7be6e72f)
 
