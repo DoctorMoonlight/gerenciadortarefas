@@ -91,9 +91,6 @@ gerenciador-de-tarefas/
 
 └── README.md            # Documentação principal do projeto
 
-![Estrutura do projeto](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/65a8a65c-f524-47e5-9010-31fd7be6e72f)
-
-Fonte: Visual Studio Code
 
 ### 1.4 Instruções de Instalação
 ### 1.4.1 Instalação e Uso no Windows
