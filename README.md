@@ -12,7 +12,7 @@ Gerenciar uma tarefa traz benefícios como evitar sobrecarga de trabalho e dimin
 
 ### 1.3 Estrutura do Projeto
 A estrutura do projeto do gerenciador de tarefas é construída em C++ de maneira intuitiva, permitindo a facilidade na compreensão e manutenção do código.
-
+ ```
 gerenciador-de-tarefas/
 
 │
@@ -90,7 +90,7 @@ gerenciador-de-tarefas/
 ├── CMakeLists.txt       # Arquivo de configuração do CMake
 
 └── README.md            # Documentação principal do projeto
-
+```
 
 ### 1.4 Instruções de Instalação
 ### 1.4.1 Instalação e Uso no Windows
