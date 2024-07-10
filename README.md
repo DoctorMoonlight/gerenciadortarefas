@@ -48,7 +48,7 @@ Como usuário, desejo poder gerenciar meus afazeres com informações detalhadas
 - Posso marcar uma tarefa como concluída;
 - Recebo notificações quando uma tarefa está próxima de ocorrer.
 
-### 2.2 Coordenador de Tarefas
+### 2.2 Gerenciador de Tarefas
 ### Descrição: 
 Na posição de usuário, desejo um gerenciador de tarefas que me permita organizar e controlar minhas tarefas de forma eficiente.
 ### Critérios de Aceitação:
