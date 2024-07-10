@@ -18,8 +18,94 @@ A estrutura do projeto do gerenciador de tarefas é construída em C++ de maneir
 Fonte: Visual Studio Code
 
 ### 1.4 Instruções de Instalação
-O usuário deve seguir as instruções de instalação a depender do seu sistema operacional.
+# 1.4.1 Instalação e Uso no Windows
 
+## Requisitos do Sistema
+- MinGW ou outro ambiente de desenvolvimento C++ (como Visual Studio)
+- Git (para clonar o repositório)
+
+## Passos para Instalação
+
+1. **Clone o repositório:**
+   - Abra o terminal (Git Bash ou CMD) e execute o seguinte comando para clonar o repositório do Gerenciador de Tarefas:
+     ```
+     git clone https://github.com/DoctorMoonlight/gerenciadortarefas.git
+     ```
+
+2. **Acesse o diretório do projeto:**
+   - Navegue até o diretório do projeto clonado:
+     ```
+     cd gerenciadortarefas
+     ```
+
+3. **Compile o programa:**
+   - Use MinGW ou o ambiente de desenvolvimento C++ de sua escolha para compilar os arquivos:
+     ```
+     g++ -o gerenciador main.cpp task.cpp tasklist.cpp
+     ```
+     Isso compilará os arquivos principais (main.cpp, task.cpp e tasklist.cpp) e criará um executável chamado `gerenciador.exe`.
+
+## Instruções de Uso
+
+1. **Executar o Gerenciador de Tarefas:**
+   - Após compilar o programa, execute-o no terminal ou no explorador de arquivos clicando duas vezes no executável `gerenciador.exe`.
+
+2. **Funcionalidades Disponíveis:**
+   - Adicionar novas tarefas.
+   - Editar tarefas existentes.
+   - Marcar tarefas como concluídas.
+   - Excluir tarefas.
+   - Visualizar o histórico de tarefas concluídas.
+
+### Observações
+Certifique-se de ter as permissões adequadas para compilar e executar o programa no Windows. Caso encontre algum problema durante a compilação ou execução, verifique as dependências e assegure-se de que todas as etapas foram seguidas corretamente.
+
+---
+
+# 1.4.2 Instalação e Uso no Linux
+
+## Requisitos do Sistema
+- Compilador C++ (por exemplo, g++)
+- Git (para clonar o repositório)
+
+## Passos para Instalação
+
+1. **Clone o repositório:**
+   - Abra o terminal e execute o seguinte comando para clonar o repositório do Gerenciador de Tarefas:
+     ```
+     git clone https://github.com/DoctorMoonlight/gerenciadortarefas.git
+     ```
+
+2. **Acesse o diretório do projeto:**
+   - Entre no diretório do projeto clonado:
+     ```
+     cd gerenciadortarefas
+     ```
+
+3. **Compile o programa:**
+   - Para compilar o programa, execute o seguinte comando:
+     ```
+     g++ -o gerenciador main.cpp task.cpp tasklist.cpp
+     ```
+     Isso compilará os arquivos principais (main.cpp, task.cpp e tasklist.cpp) e criará um executável chamado `gerenciador`.
+
+## Instruções de Uso
+
+1. **Executar o Gerenciador de Tarefas:**
+   - Após compilar o programa, execute-o digitando o seguinte comando no terminal:
+     ```
+     ./gerenciador
+     ```
+
+2. **Funcionalidades Disponíveis:**
+   - Adicionar novas tarefas.
+   - Editar tarefas existentes.
+   - Marcar tarefas como concluídas.
+   - Excluir tarefas.
+   - Visualizar o histórico de tarefas concluídas.
+
+### Observações
+Certifique-se de ter as permissões adequadas para compilar e executar o programa no Linux. Caso encontre algum problema durante a compilação ou execução, verifique as dependências e assegure-se de que todas as etapas foram seguidas corretamente.
 
 #### Passos para Instalação
 1. Clone o repositório: [https://github.com/DoctorMoonlight/gerenciadortarefas.git](https://github.com/DoctorMoonlight/gerenciadortarefas.git)
