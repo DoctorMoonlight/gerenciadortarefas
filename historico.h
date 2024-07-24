@@ -10,5 +10,6 @@ public:
     void exibirHistorico() const;
 
 private:
-    std::vector<Tarefa> tarefasConcluidas;};
+    std::vector<Tarefa> tarefasConcluidas;
+};
 #endif 
