@@ -1,10 +1,10 @@
 #ifndef TAREFA_H
 #define TAREFA_H
 
-#include <string>
-#include <vector>
-#include "etiqueta.h"
-#include "notificacao.h"
+#include <string> // Biblioteca padrão para utilização de strings
+#include <vector> // Biblioteca padrão para utilização de vetores
+#include "etiqueta.h"  // Inclusão do cabeçalho da classe etiqueta
+#include "notificacao.h" // Inclusão do cabeçalho da classe notificação
 
 using namespace std;
 
