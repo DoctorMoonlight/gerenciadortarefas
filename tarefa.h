@@ -6,29 +6,32 @@
 #include "etiqueta.h"
 #include "notificacao.h"
 
+using namespace std;
+
+// Classe que representa uma Tarefa, contendo descrição, data, horário, etiqueta, status de conclusão e notificação.
 class Tarefa {
 public:
-    Tarefa(const std::string& descricao, const std::string& data, const std::string& horario);
-    void setDescricao(const std::string& descricao);
-    std::string getDescricao() const;
-    void setData(const std::string& data);
-    std::string getData() const;
-    void setHorario(const std::string& horario);
-    std::string getHorario() const;
-    void setEtiqueta(const Etiqueta& etiqueta);
-    Etiqueta getEtiqueta() const;
-    void setStatus(bool concluida);
-    bool isConcluida() const;
-    void setNotificacao(const Notificacao& notificacao);
-    Notificacao getNotificacao() const;
+    Tarefa(const string& descricao, const string& data, const string& horario); // Construtor que inicializa a tarefa com descrição, data e horário.
+    void setDescricao(const string& descricao); // Define a descrição da tarefa.
+    string getDescricao() const;  // Retorna a descrição da tarefa.
+    void setData(const string& data); // Define a data da tarefa.
+    string getData() const; // Retorna a data da tarefa.
+    void setHorario(const string& horario);  // Define o horário da tarefa.
+    string getHorario() const; // Retorna o horário da tarefa.
+    void setEtiqueta(const Etiqueta& etiqueta);  // Define a etiqueta da tarefa.
+    Etiqueta getEtiqueta() const; // Retorna a etiqueta da tarefa.
+    void setStatus(bool concluida); // Define o status de conclusão da tarefa.
+    bool isConcluida() const; // Retorna se a tarefa está concluída.
+    void setNotificacao(const Notificacao& notificacao); // Define a notificação da tarefa.
+    Notificacao getNotificacao() const; // Retorna a notificação da tarefa.
 
 private:
-    std::string descricao;
-    std::string data;
-    std::string horario;
+    string descricao;
+    string data;
+    string horario;
     Etiqueta etiqueta;
     bool concluida;
     Notificacao notificacao;
 };
 
-#endif // TAREFA_H
+#endif 
