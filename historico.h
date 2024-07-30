@@ -1,7 +1,7 @@
 #ifndef HISTORICO_H
 #define HISTORICO_H
 
-#include "tarefa.h"//Inclui o arquivo de cabeçalho pra definir a classe Tarefa
+#include "tarefa.h"//Inclui o arquivo de cabeçalho para definir a classe Tarefa
 #include <vector>//Inclui a biblioteca padrão vector do C++
 
 //Inicialização da classe historico
