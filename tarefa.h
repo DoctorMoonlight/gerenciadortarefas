@@ -1,17 +1,17 @@
 #ifndef TAREFA_H
 #define TAREFA_H
 
-#include <string> // Biblioteca padrão para utilização de strings
-#include <vector> // Biblioteca padrão para utilização de vetores
-#include "etiqueta.h"  // Inclusão do cabeçalho da classe etiqueta
-#include "notificacao.h" // Inclusão do cabeçalho da classe notificação
+#include <string>
+#include <vector>
+#include "etiqueta.h"
+#include "notificacao.h"
 
 using namespace std;
 
 // Classe que representa uma Tarefa, contendo descrição, data, horário, etiqueta, status de conclusão e notificação.
 class Tarefa {
 public:
-    Tarefa(const string& descricao, const string& data, const string& horario); // Construtor que inicializa a tarefa com descrição, data e horário.
+    Tarefa(const string& descricao, const string& data, const string& horario, const Etiqueta& etiqueta, const Notificacao& notificacao); // Construtor que inicializa a tarefa com descrição, data, horário, etiqueta e notificação.
     void setDescricao(const string& descricao); // Define a descrição da tarefa.
     string getDescricao() const;  // Retorna a descrição da tarefa.
     void setData(const string& data); // Define a data da tarefa.
@@ -34,4 +34,4 @@ private:
     Notificacao notificacao;
 };
 
-#endif 
+#endif
