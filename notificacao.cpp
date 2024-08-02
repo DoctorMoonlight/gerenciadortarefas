@@ -52,7 +52,6 @@ std::tm Notificacao::stringParaTm(const string& data, const string& horario) con
  tm tm = {}; // Inicializa uma estrutura std::tm vazia
  istringstream ss(data + " " + horario); // Cria um fluxo de string com data e horário
  ss >> get_time(&tm, "%d/%m/%Y %H:%M"); // Analisa a string e preenche o objeto
-std::tm
  return tm;
 }
 // Verifica se o horário atual é igual ao horário da notificação
