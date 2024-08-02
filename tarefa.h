@@ -33,3 +33,4 @@ private:
     bool concluida;
     Notificacao notificacao;
 };
+#endif TAREFA_H
