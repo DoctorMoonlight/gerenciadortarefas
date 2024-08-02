@@ -136,9 +136,5 @@ int main() {
             tarefa.getNotificacao().notificar();
         }
     }
-
-    // Pausa para não sobrecarregar o sistema
-    this_thread::sleep_for(chrono::minutes(1));
-
     return 0;
 }
