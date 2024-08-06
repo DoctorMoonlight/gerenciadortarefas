@@ -1,19 +1,24 @@
 #ifndef HISTORICO_H
 #define HISTORICO_H
 
-#include "tarefa.h" // Inclui o arquivo de cabeçalho pra definir a classe Tarefa
-#include <vector> // Inclui a biblioteca padrão vector do C++
+#include "tarefa.h"
+#include <vector>
 
-using namespace std; // Adiciona o namespace std
+using namespace std;
 
-// Inicialização da classe Historico
-class Historico {
+//Inicialização da classe historico
+class Historico 
+{
 public:
-    void adicionarTarefaConcluida(const Tarefa& tarefa); // Adiciona uma tarefa concluída ao histórico
-    void exibirHistorico() const; // Exibe o histórico das tarefas concluídas
+    //Adiciona uma tarefa concluída ao histórico
+    void adicionarTarefaConcluida(const Tarefa& tarefa); 
+    //Exibe o histórico das tarefas concluídas
+    void exibirHistorico() const; 
 
 private:
-    vector<Tarefa> tarefasConcluidas; // Vetor privado que armazena as tarefas concluídas
-};
+    //Vetor privado que armazena as tarefas concluídas
+    vector<Tarefa> tarefasConcluidas; 
 
-#endif // Encerra a prevenção de inclusão múltipla
+friend class TEST_CASE;
+};
+#endif 
