@@ -17,53 +17,53 @@ gerenciador-de-tarefas/
 
 │
 
-├── bin/                 # Diretório para o executável
+├── bin/                           # Diretório para o executável
 
 │   └── gerenciador-de-tarefas
 
 │
 
-├── build/               # Diretório para arquivos de compilação
+├── build/                         # Diretório para arquivos de compilação
 
 │
 
-├── src/                 # Código-fonte do projeto
+├── src/                           # Código-fonte do projeto
 
-│   ├── main.cpp         # Arquivo principal
+│   ├── main.cpp                   # Arquivo principal
 
-│   ├── tarefa.cpp       # Implementação da classe Tarefa
+│   ├── tarefa.cpp                 # Implementação da classe Tarefa
 
-│   ├── gerenciador.cpp  # Implementação da classe GerenciadorDeTarefas
+│   ├── gerenciador_de_tarefa.cpp  # Implementação da classe GerenciadorDeTarefas
 
-│   ├── notificacao.cpp  # Implementação da classe Notificacao
+│   ├── notificacao.cpp            # Implementação da classe Notificacao
 
-│   ├── etiqueta.cpp     # Implementação da classe Etiqueta
+│   ├── etiqueta.cpp               # Implementação da classe Etiqueta
 
-│   └── historico.cpp    # Implementação da classe Historico
-
-│
-
-├── include/             # Cabeçalhos do projeto
-
-│   ├── tarefa.h         # Declaração da classe Tarefa
-
-│   ├── gerenciador.h    # Declaração da classe GerenciadorDeTarefas
-
-│   ├── notificacao.h    # Declaração da classe Notificacao
-
-│   ├── etiqueta.h       # Declaração da classe Etiqueta
-
-│   └── historico.h      # Declaração da classe Historico
+│   └── historico.cpp              # Implementação da classe Historico
 
 │
 
-├── obj/                 # Diretório para arquivos objeto (.o)
+├── include/                       # Cabeçalhos do projeto
+
+│   ├── tarefa.h                   # Declaração da classe Tarefa
+
+│   ├── gerenciador_de_tarefa.h    # Declaração da classe GerenciadorDeTarefas
+
+│   ├── notificacao.h              # Declaração da classe Notificacao
+
+│   ├── etiqueta.h                 # Declaração da classe Etiqueta
+
+│   └── historico.h                # Declaração da classe Historico
+
+│
+
+├── obj/                           # Diretório para arquivos objeto (.o)
 
 │   ├── main.o
 
 │   ├── tarefa.o
 
-│   ├── gerenciador.o
+│   ├── gerenciador_de_tarefa.o
 
 │   ├── notificacao.o
 
@@ -73,11 +73,11 @@ gerenciador-de-tarefas/
 
 │
 
-├── tests/               # Testes unitários
+├── tests/                         # Testes unitários
 
 │   ├── test_tarefa.cpp
 
-│   ├── test_gerenciador.cpp
+│   ├── test_gerenciador_de_tarefa.cpp
 
 │   ├── test_notificacao.cpp
 
@@ -87,9 +87,7 @@ gerenciador-de-tarefas/
 
 │
 
-├── CMakeLists.txt       # Arquivo de configuração do CMake
-
-└── README.md            # Documentação principal do projeto
+└── README.md                      # Documentação principal do projeto
 ```
 
 ### 1.4 Instruções de Instalação
