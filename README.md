@@ -249,6 +249,16 @@ Descrição: Como usuário, quero poder acessar o histórico das minhas tarefas 
 
 ![5](https://github.com/DoctorMoonlight/gerenciadortarefas/assets/174665776/dd28bec6-75fc-41c8-ac7e-4fe84c2afce9)
 
+## 4.0 Principais Dificuldades
+
+- Execução dos Testes do Programa.
+ A execução dos testes do programa apresentou-se como um dos maiores desafios. Devido à complexidade das funcionalidades implementadas e à necessidade de garantir a precisão e a robustez do sistema, os testes demandaram um esforço considerável. Foi necessário criar um conjunto abrangente de casos de teste para cobrir todas as possíveis interações do usuário com o sistema.
+
+Além disso, a depuração de erros detectados durante os testes revelou-se uma tarefa árdua. A falta de ferramentas avançadas de depuração em C, comparado a outras linguagens de alto nível, contribuiu para aumentar a dificuldade na identificação e correção de "bugs".
+
+- Implementação das notificações.
+ Outra dificuldade encontrada foi a falta de emissão de som nas notificações. A intenção era que cada notificação fosse acompanhada por um alerta sonoro para garantir que o usuário percebesse o lembrete. No entanto, a integração com bibliotecas de áudio em C mostrou-se mais complicada do que o previsto, que introduziu complexidades adicionais e problemas de compatibilidade.
+
 ## Autoras
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/174665776?v=4" width=115><br><sub>Ana Luiza Silva e Mendes</sub>](https://github.com/analuizasmendes) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/91071877?v=4" width=115><br><sub>Maria Clara Moreira Alves de Araújo</sub>](https://github.com/DoctorMoonlight) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/174662300?v=4" width=115><br><sub>Elen Caroline Izidoro de Aguiar</sub>](https://github.com/ellenuf) |[<img loading="lazy" src="https://avatars.githubusercontent.com/u/165835956?v=4" width=115><br><sub>Ana Sarah da Silva Gomes</sub>](https://github.com/anasarahsg) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/174651649?v=4" width=115><br><sub>Bruna Kamily dos Santos</sub>](https://github.com/BrunaKamilySantos)
