@@ -1,15 +1,16 @@
 #ifndef TAREFA_H
 #define TAREFA_H
- 
+
 #include <string>
 #include <vector>
 #include "etiqueta.h"
 #include "notificacao.h"
- 
+
 using namespace std;
- 
+
 // Classe que representa uma Tarefa, contendo descrição, data, horário, etiqueta, status de conclusão e notificação.
-class Tarefa {
+class Tarefa 
+{
 public:
     Tarefa(const string& descricao, const string& data, const string& horario, const Etiqueta& etiqueta, const Notificacao& notificacao); // Construtor que inicializa a tarefa com descrição, data, horário, etiqueta e notificação.
     void setDescricao(const string& descricao); // Define a descrição da tarefa.
@@ -24,7 +25,9 @@ public:
     bool isConcluida() const; // Retorna se a tarefa está concluída.
     void setNotificacao(const Notificacao& notificacao); // Define a notificação da tarefa.
     Notificacao getNotificacao() const; // Retorna a notificação da tarefa.
- 
+    void setNotificada(bool notificacao_ok); // Define a tarefa como notificada
+    bool isNotificada() const; // Retorna se a tarefa já foi notificada
+
 private:
     string descricao;
     string data;
@@ -32,5 +35,9 @@ private:
     Etiqueta etiqueta;
     bool concluida;
     Notificacao notificacao;
+    bool notificacao_ok; // Bit que impede que a mesma tarefa seja notificada mais de uma vez
+
+friend class TEST_CASE;
 };
-#endif TAREFA_H
+
+#endif 
