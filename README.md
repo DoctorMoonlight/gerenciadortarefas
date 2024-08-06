@@ -254,7 +254,7 @@ Descrição: Como usuário, quero poder acessar o histórico das minhas tarefas 
 - Execução dos Testes do Programa.
  A execução dos testes do programa apresentou-se como um dos maiores desafios. Devido à complexidade das funcionalidades implementadas e à necessidade de garantir a precisão e a robustez do sistema, os testes demandaram um esforço considerável. Foi necessário criar um conjunto abrangente de casos de teste para cobrir todas as possíveis interações do usuário com o sistema.
 
-Além disso, a depuração de erros detectados durante os testes revelou-se uma tarefa árdua. A falta de ferramentas avançadas de depuração em C, comparado a outras linguagens de alto nível, contribuiu para aumentar a dificuldade na identificação e correção de "bugs".
+- Além disso, a depuração de erros detectados durante os testes revelou-se uma tarefa árdua. A falta de ferramentas avançadas de depuração em C, comparado a outras linguagens de alto nível, contribuiu para aumentar a dificuldade na identificação e correção de "bugs".
 
 - Implementação das notificações.
  Outra dificuldade encontrada foi a falta de emissão de som nas notificações. A intenção era que cada notificação fosse acompanhada por um alerta sonoro para garantir que o usuário percebesse o lembrete. No entanto, a integração com bibliotecas de áudio em C mostrou-se mais complicada do que o previsto, que introduziu complexidades adicionais e problemas de compatibilidade.
