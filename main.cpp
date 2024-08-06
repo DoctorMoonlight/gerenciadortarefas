@@ -1,17 +1,23 @@
 #include <iostream>
+#include <atomic>
 #include <thread>
 #include <chrono>
 #include "gerenciador_de_tarefa.h"
 #include "tarefa.h"
 #include "etiqueta.h"
 #include "notificacao.h"
-#include "historico.h"
+#include "historico.h" 
+#include "catch_amalgamated.hpp"
 
-// Usar namespace std para evitar prefixar cada elemento da biblioteca padrão com std::
+// Cria uma instância do GerenciadorDeTarefas
+static GerenciadorDeTarefas gerenciador;
+std::atomic_bool manterTarefasThread = true;
+
 using namespace std;
 
 // Função para exibir o menu principal do gerenciador de tarefas
-void mostrarMenu() {
+void mostrarMenu() 
+{
     cout << "==== Gerenciador de Tarefas ====\n";
     cout << "1. Adicionar nova tarefa\n";
     cout << "2. Editar tarefa\n";
@@ -24,10 +30,33 @@ void mostrarMenu() {
     cout << "Escolha uma opção: ";
 }
 
-int main() {
-    // Cria uma instância do GerenciadorDeTarefas
-    GerenciadorDeTarefas gerenciador;
+// Função que verifica se há uma tarefa e notifica no terminal
+void verificarTarefas()
+{
+    while(manterTarefasThread)
+    {
+        // Verifica e notifica as tarefas se a hora de notificação chegou
+        for (const auto& tarefa : gerenciador.getTarefas()) 
+        {
+            if (tarefa.getNotificacao().verificarHoraNotificacao()) 
+            {
+                // Se a tarefa já tiver sido notificada, não a exibe no terminal novamente
+                if (!tarefa.isNotificada()){
+                    tarefa.getNotificacao().notificar();
+                    gerenciador.marcarComoNotificada(tarefa.getDescricao()); // Marca a tarefa como notificada para não exibir mais de uma vez
+                }
+            }
+        }
+
+        // A cada 5 segundos essa thread é executada
+        this_thread::sleep_for(chrono::seconds(5));
+    }
+}
+
+int main() 
+{
     int opcao;
+    thread verificarTarefasThread(&verificarTarefas);
 
     // Loop principal do programa que exibe o menu e processa a entrada do usuário
     while (true) {
@@ -39,23 +68,22 @@ int main() {
         if (opcao == 8) break;
 
         // Declara variáveis para armazenar os dados da tarefa, etiqueta e notificação
-        string descricao, data, horario, nomeEtiqueta, mensagemNotificacao, dataNotificacao, horarioNotificacao;
-        int prioridade;
+        string descricao, data, horario, nomeEtiqueta, mensagemNotificacao, dataNotificacao, horarioNotificacao, prioridade;
 
         // Processa a opção escolhida pelo usuário
-        switch (opcao) {
+        switch (opcao) 
+        {
             case 1: // Adicionar nova tarefa
-                cout << "Digite a descrição da tarefa: ";
-                getline(cin, descricao);
+                cout << "\nDigite a descrição da tarefa: ";
+                getline(cin, descricao); 
                 cout << "Digite a data da tarefa (DD/MM/AAAA): ";
                 getline(cin, data);
                 cout << "Digite o horário da tarefa (HH:MM): ";
                 getline(cin, horario);
                 cout << "Digite o nome da etiqueta: ";
                 getline(cin, nomeEtiqueta);
-                cout << "Digite a prioridade da etiqueta: ";
-                cin >> prioridade;
-                cin.ignore();
+                cout << "Digite a prioridade da etiqueta (1 a 5): ";
+                getline(cin, prioridade);
                 cout << "Digite a mensagem da notificação: ";
                 getline(cin, mensagemNotificacao);
                 cout << "Digite a data da notificação (DD/MM/AAAA): ";
@@ -67,32 +95,49 @@ int main() {
                 break;
 
             case 2: // Editar tarefa existente
-                cout << "Digite a descrição da tarefa a ser editada: ";
-                getline(cin, descricao);
-                cout << "Digite a nova data da tarefa (DD/MM/AAAA): ";
-                getline(cin, data);
-                cout << "Digite o novo horário da tarefa (HH:MM): ";
-                getline(cin, horario);
-                cout << "Digite o nome da nova etiqueta: ";
-                getline(cin, nomeEtiqueta);
-                cout << "Digite a nova prioridade da etiqueta: ";
-                cin >> prioridade;
-                cin.ignore();
-                cout << "Digite a nova mensagem da notificação: ";
-                getline(cin, mensagemNotificacao);
-                cout << "Digite a nova data da notificação (DD/MM/AAAA): ";
-                getline(cin, dataNotificacao);
-                cout << "Digite o novo horário da notificação (HH:MM): ";
-                getline(cin, horarioNotificacao);
-                // Edita a tarefa existente no gerenciador
-                gerenciador.editarTarefa(descricao, Tarefa(descricao, data, horario, Etiqueta(nomeEtiqueta, prioridade), Notificacao(mensagemNotificacao, dataNotificacao, horarioNotificacao)));
+                // Se o vetor estiver não estiver vazio, inicia a edição da tarefa
+                if(gerenciador.verificarVetor())
+                {
+                    cout << "\nDigite a descrição da tarefa a ser editada: ";
+                    getline(cin, descricao);
+
+                    // Se a tarefa for encontrada, inicia a edição 
+                    if(gerenciador.procurarTarefa(descricao))
+                    {
+                        cout << "Digite a nova data da tarefa (DD/MM/AAAA): ";
+                        getline(cin, data);
+                        cout << "Digite o novo horário da tarefa (HH:MM): ";
+                        getline(cin, horario);
+                        cout << "Digite o nome da nova etiqueta: ";
+                        getline(cin, nomeEtiqueta);
+                        cout << "Digite a nova prioridade da etiqueta (1 a 5): ";
+                        cin >> prioridade;
+                        cin.ignore();
+                        cout << "Digite a nova mensagem da notificação: ";
+                        getline(cin, mensagemNotificacao);
+                        cout << "Digite a nova data da notificação (DD/MM/AAAA): ";
+                        getline(cin, dataNotificacao);
+                        cout << "Digite o novo horário da notificação (HH:MM): ";
+                        getline(cin, horarioNotificacao);
+                        // Edita a tarefa existente no gerenciador
+                        gerenciador.editarTarefa(descricao, Tarefa(descricao, data, horario, Etiqueta(nomeEtiqueta, prioridade), Notificacao(mensagemNotificacao, dataNotificacao, horarioNotificacao)));
+                    }
+                }
                 break;
 
             case 3: // Eliminar tarefa
-                cout << "Digite a descrição da tarefa a ser eliminada: ";
-                getline(cin, descricao);
-                // Remove a tarefa com a descrição fornecida
-                gerenciador.eliminarTarefa(descricao);
+                // Se o vetor estiver não estiver vazio, inicia a eliminação da tarefa
+                if(gerenciador.verificarVetor())
+                {
+                    cout << "\nDigite a descrição da tarefa a ser eliminada: ";
+                    getline(cin, descricao);
+                    // Se a tarefa for encontrada, inicia a eliminação
+                    if(gerenciador.procurarTarefa(descricao))
+                    {
+                        // Remove a tarefa com a descrição fornecida
+                        gerenciador.eliminarTarefa(descricao);
+                    }
+                }
                 break;
 
             case 4: // Exibir todas as tarefas
@@ -101,40 +146,55 @@ int main() {
                 break;
 
             case 5: // Marcar tarefa como concluída
-                cout << "Digite a descrição da tarefa a ser marcada como concluída: ";
-                getline(cin, descricao);
-                // Marca a tarefa com a descrição fornecida como concluída
-                gerenciador.marcarComoConcluida(descricao);
+                // Se o vetor estiver não estiver vazio, inicia a edição da tarefa
+                if(gerenciador.verificarVetor())
+                {
+                    cout << "\nDigite a descrição da tarefa a ser marcada como concluída: ";
+                    getline(cin, descricao);
+                    // Se a tarefa for encontrada, inicia a edição 
+                    if(gerenciador.procurarTarefa(descricao)){
+                        // Marca a tarefa com a descrição fornecida como concluída
+                        gerenciador.marcarComoConcluida(descricao);
+                    }
+                }
                 break;
 
             case 6: // Gerenciar etiquetas
-                cout << "Digite a descrição da tarefa para gerenciar etiquetas: ";
-                getline(cin, descricao);
-                cout << "Digite o nome da etiqueta: ";
-                getline(cin, nomeEtiqueta);
-                cout << "Digite a prioridade da etiqueta: ";
-                cin >> prioridade;
-                cin.ignore();
-                // Gerencia as etiquetas de uma tarefa específica
-                gerenciador.gerenciarEtiquetas(descricao, Etiqueta(nomeEtiqueta, prioridade));
+                // Se o vetor estiver não estiver vazio, inicia o gerenciamento das etiquetas
+                if(gerenciador.verificarVetor())
+                {
+                    cout << "\nDigite a descrição da tarefa para gerenciar etiquetas: ";
+                    getline(cin, descricao);
+                    // Se a tarefa for encontrada, inicia a edição 
+                    if(gerenciador.procurarTarefa(descricao)){
+                        cout << "Digite o nome da etiqueta: ";
+                        getline(cin, nomeEtiqueta);
+                        cout << "Digite a prioridade da etiqueta (1 a 5): ";
+                        cin >> prioridade;
+                        cin.ignore();
+                        // Gerencia as etiquetas de uma tarefa específica
+                        gerenciador.gerenciarEtiquetas(descricao, Etiqueta(nomeEtiqueta, prioridade));
+                    }
+                }
                 break;
 
             case 7: // Exibir histórico de tarefas
-                // Exibe o histórico de tarefas realizadas
-                gerenciador.exibirHistorico();
+            // Se o vetor estiver não estiver vazio, inicia a edição da tarefa
+                if(gerenciador.verificarVetor())
+                {
+                    // Exibe o histórico de tarefas realizadas
+                    gerenciador.exibirHistorico();
+                }
                 break;
 
             default: // Opção inválida
-                cout << "Opção inválida. Tente novamente.\n";
+                cout << "\nOpção inválida. Tente novamente.\n\n";
                 break;
         }
     }
 
-    // Verifica e notifica as tarefas se a hora de notificação chegou
-    for (const auto& tarefa : gerenciador.getTarefas()) {
-        if (tarefa.getNotificacao().verificarHoraNotificacao()) {
-            tarefa.getNotificacao().notificar();
-        }
-    }
+    manterTarefasThread = false;
+    verificarTarefasThread.detach();
+
     return 0;
 }
