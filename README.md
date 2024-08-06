@@ -252,7 +252,7 @@ Descrição: Como usuário, quero poder acessar o histórico das minhas tarefas 
 ## 4.0 Principais Dificuldades
 
 - Execução dos Testes do Programa.
- A execução dos testes do programa apresentou-se como um dos maiores desafios. Devido à complexidade das funcionalidades implementadas e à necessidade de garantir a precisão e a robustez do sistema, os testes demandaram um esforço considerável. Foi necessário criar um conjunto abrangente de casos de teste para cobrir todas as possíveis interações do usuário com o sistema.
+ A execução dos testes apresentou-se como um dos maiores desafios. Devido a complexidade das funcionalidades implementadas e a necessidade de garantir a precisão e a robustez do sistema, os testes demandaram um esforço considerável. Foi necessário criar um conjunto abrangente de casos de teste para cobrir todas as possíveis interações do usuário com o sistema.
 
 - Além disso, a depuração de erros detectados durante os testes revelou-se uma tarefa árdua. A falta de ferramentas avançadas de depuração em C, comparado a outras linguagens de alto nível, contribuiu para aumentar a dificuldade na identificação e correção de "bugs".
 
@@ -261,7 +261,7 @@ Descrição: Como usuário, quero poder acessar o histórico das minhas tarefas 
 
 ## 5.0 Conclusão 
 
- Apesar dos desafios enfrentados, o desenvolvimento do gerenciador de tarefas em C proporcionou uma valiosa experiência de aprendizado e contribuiu significativamente para o aprimoramento das habilidades de programação e resolução de problemas. As dificuldades encontradas na execução dos testes do programa e na implementação das notificações foram superadas com uma abordagem persistente, resultando em um produto final funcional e mais eficiente. 
+ Apesar dos desafios enfrentados, o desenvolvimento do gerenciador de tarefas em C++ proporcionou uma valiosa experiência de aprendizado e contribuiu significativamente para o aprimoramento das habilidades de programação e resolução de problemas. As dificuldades encontradas na execução dos testes do programa e na implementação das notificações foram superadas com uma abordagem persistente, resultando em um produto final funcional e mais eficiente. 
    As atividades em grupo também foram essenciais para o sucesso do projeto. A colaboração e o compartilhamento de conhecimentos entre os membros da equipe permitiram resolver problemas de forma mais eficaz e desenvolver soluções inovadoras para os desafios encontrados. Portanto, o trabalho foi de signficativa importância para aprimoramentos dos conhecimentos e experiências de programação. 
 
 ## Autoras
