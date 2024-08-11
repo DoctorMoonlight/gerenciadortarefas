@@ -98,38 +98,41 @@ gerenciador-de-tarefas/
 - Git (para clonar o repositório)
 
 ### Passos para Instalação
+1.	**Clone o repositório:**
 
-1. **Clone o repositório:**
-   - Abra o terminal (Git Bash ou CMD) e execute o seguinte comando para clonar o repositório do Gerenciador de Tarefas:
-     ```
-     git clone https://github.com/DoctorMoonlight/gerenciadortarefas.git
-     ```
+- Abra o terminal e execute o seguinte comando para clonar o repositório do Gerenciador de Tarefas:
 
-2. **Acesse o diretório do projeto:**
-   - Navegue até o diretório do projeto clonado:
-     ```
-     cd gerenciadortarefas
-     ```
+```
+git clone https://github.com/DoctorMoonlight/gerenciadortarefas.git
+```
 
-3. **Compile o programa:**
-   - Use MinGW ou o ambiente de desenvolvimento C++ de sua escolha para compilar os arquivos:
-     ```
-     g++ -o gerenciador main.cpp task.cpp tasklist.cpp
-     ```
-     Isso compilará os arquivos principais (main.cpp, task.cpp e tasklist.cpp) e criará um executável chamado `gerenciador.exe`.
+2.	**Acesse o diretório do projeto:**
+
+```
+cd gerenciadortarefas
+```
+
+3.	**Compile o programa:**
+
+```
+g++ -o gerenciador main.cpp tarefa.cpp etiqueta.cpp gerenciador_de_tarefa.cpp historico.cpp notificacao.cpp catch_amalgamated.cpp
+```
+
+Isso compilará os arquivos principais (main.cpp, tarefa.cpp, etiqueta.cpp, gerenciador_de_tarefa.cpp, historico.cpp, notificacao.cpp e catch_amalgamated.cpp) e criará um executável chamado gerenciador.exe.
 
 ### Instruções de Uso
 
-1. **Executar o Gerenciador de Tarefas:**
-   - Após compilar o programa, execute-o no terminal ou no explorador de arquivos clicando duas vezes no executável `gerenciador.exe`.
+1.	**Executar o Gerenciador de Tarefas:**
 
-2. **Funcionalidades Disponíveis:**
-   - Adicionar novas tarefas.
-   - Editar tarefas existentes.
-   - Marcar tarefas como concluídas.
-   - Excluir tarefas.
-   - Visualizar o histórico de tarefas concluídas.
+- Execute o programa no terminal ou no explorador de arquivos clicando duas vezes no executável gerenciador.exe.
 
+2.	**Funcionalidades Disponíveis:**
+
+•	Adicionar novas tarefas.
+•	Editar tarefas existentes.
+•	Marcar tarefas como concluídas.
+•	Excluir tarefas.
+•	Visualizar o histórico de tarefas concluídas.
 
 ---
 
@@ -142,31 +145,33 @@ gerenciador-de-tarefas/
 ### Passos para Instalação
 
 1. **Clone o repositório:**
+
    - Abra o terminal e execute o seguinte comando para clonar o repositório do Gerenciador de Tarefas:
-     ```
-     git clone https://github.com/DoctorMoonlight/gerenciadortarefas.git
-     ```
+  
+ ```
+git clone https://github.com/DoctorMoonlight/gerenciadortarefas.git
+```
 
-2. **Acesse o diretório do projeto:**
-   - Entre no diretório do projeto clonado:
-     ```
-     cd gerenciadortarefas
-     ```
+2.	**Acesse o diretório do projeto:**
 
-3. **Compile o programa:**
-   - Para compilar o programa, execute o seguinte comando:
-     ```
-     g++ -o gerenciador main.cpp task.cpp tasklist.cpp
-     ```
-     Isso compilará os arquivos principais (main.cpp, task.cpp e tasklist.cpp) e criará um executável chamado `gerenciador`.
+```
+cd gerenciadortarefas
+```
+
+3.	**Compile o programa:**
+
+```
+g++ -o gerenciador main.cpp tarefa.cpp etiqueta.cpp gerenciador_de_tarefa.cpp historico.cpp notificacao.cpp catch_amalgamated.cpp
+```
+
+Isso compilará os arquivos principais (main.cpp, tarefa.cpp, etiqueta.cpp, gerenciador_de_tarefa.cpp, historico.cpp, notificacao.cpp e catch_amalgamated.cpp) e criará um executável chamado gerenciador.
 
 ### Instruções de Uso
+1.	Executar o Gerenciador de Tarefas: Execute o programa digitando o seguinte comando no terminal:
 
-1. **Executar o Gerenciador de Tarefas:**
-   - Após compilar o programa, execute-o digitando o seguinte comando no terminal:
-     ```
-     ./gerenciador
-     ```
+```
+./gerenciador
+```
 
 2. **Funcionalidades Disponíveis:**
    - Adicionar novas tarefas.
@@ -177,8 +182,6 @@ gerenciador-de-tarefas/
 
 ### Observações sobre a instalação 
 O utilizador deve se certificar de ter as permissões adequadas para compilar e executar o programa no Linux ou no Windows. Caso aconteça algum problema durante a compilação ou execução, será necessário verificar as dependências e assegurar de que todas as etapas foram seguidas corretamente.
-
-
 
 ### 1.5 Instruções de Uso
 Para utilizar corretamente o sistema, o usuário deve:
