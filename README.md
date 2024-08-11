@@ -128,11 +128,11 @@ Isso compilará os arquivos principais (main.cpp, tarefa.cpp, etiqueta.cpp, gere
 
 2.	**Funcionalidades Disponíveis:**
 
-•	Adicionar novas tarefas.
-•	Editar tarefas existentes.
-•	Marcar tarefas como concluídas.
-•	Excluir tarefas.
-•	Visualizar o histórico de tarefas concluídas.
+-	Adicionar novas tarefas.
+-	Editar tarefas existentes.
+-	Marcar tarefas como concluídas.
+-	Excluir tarefas.
+-	Visualizar o histórico de tarefas concluídas.
 
 ---
 
